@@ -4,12 +4,78 @@
   box-sizing: border-box;
 }
 
+img {
+  margin: 1rem;
+}
+
 body {
   width: 100vw;
   height: 100vh;
   max-width: 100%;
   max-height: 100%;
-  background: #99d1ea;
+  background: #78bbcb;
+  display: flex;
+  justify-content: center;
+}
+body main {
+  width: 800px;
+  height: 620px;
+  margin: 3rem;
+}
+body main #titulo {
+  text-align: center;
+}
+body main .contenedor {
+  display: flex;
+}
+body main .contenedor .fila1 :nth-child(1) {
+  transform: translateY(-1rem);
+}
+body main .contenedor .fila1 :nth-child(2) {
+  width: 100px;
+}
+body main .contenedor .fila1 :nth-child(3) {
+  transform: translate(0rem, 1rem);
+}
+body main .contenedor .fila1 :nth-child(4) {
+  transform: translate(3rem);
+}
+body main .contenedor .fila1 :nth-child(5) {
+  width: 100px;
+  margin-top: 0;
+  transform: translateY(-1rem);
+}
+body main .contenedor .fila2 {
+  margin-top: 2rem;
+}
+body main .contenedor .fila2 :nth-child(1) {
+  transform: translate(0px, 2rem);
+}
+body main .contenedor .fila2 :nth-child(2) {
+  width: 120px;
+}
+body main .contenedor .fila2 :nth-child(3) {
+  transform: translate(3rem);
+  margin-bottom: 2rem;
+}
+body main .contenedor .fila2 :nth-child(4) {
+  width: 100px;
+}
+body main .contenedor .fila4 {
+  margin-top: 2rem;
+}
+body main .contenedor .fila4 :nth-child(1) {
+  width: 100px;
+}
+body main .contenedor .fila4 :nth-child(2) {
+  height: 100px;
+}
+body main .contenedor .fila4 :nth-child(3) {
+  width: 130px;
+  transform: translateY(3rem);
+}
+body main .contenedor .fila5 :nth-child(3) {
+  transform: translate(0px, 2rem);
 }
 
 /*# sourceMappingURL=styles.css.map */
